@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
+    scroll-behavior: smooth;
+}
+.topo{
+    background-color: rgb(2, 141, 141);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1 1 auto;
+    position: fixed;
+    z-index: 1;
+}
+.topo a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+}
+.topo a:hover{
+    color: grey;
+}
+header{
+    background-image: url('/Assets/recepcao.png');
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+header h1{
+    position: absolute;
+    top: 270px;
+    font-size: 50px;
+    color: white;
+    font-weight: normal;
+    margin-left: 20px;
+}
+main .sobre h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0px 20px 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1 1 auto;
+    flex-direction: column;
+}
+main .sobre p{
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+}
+.sobre .tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 40px 0px;
+    text-align: left;
+}
+.tabela img{
+    width: 220px;
+}
+.tabela h2{
+    font-size: 1px;
+    font-weight: normal;
+}
+.tabela ul{
+    margin: 0px 0px 0px 30px;
+}
+main .a2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1 1 auto;
+    flex-direction: column;
+}
+.a2 h3{
+    font-size: 25px;
+    margin: 0px 0px 10px 0px
+}
+.a2 p{
+    text-align: center;
+    font-size: 15px;
+    margin: 0px 0px 40px 0px;
+}
+.a2 .cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    flex-grow: 1 1 auto;
+    flex-wrap: wrap;
+}
+.cards div{
+    box-shadow: 0px 0px 15px 1px black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px 60px 0px;
+}
+.cards a{
+    text-decoration: none;
+}
+.cards p{
+    font-size: 25px;
+    margin: 20px;
+}
+.cards div img{
+    width: 350px;
+}
+.a2 .link{
+    background-color: rgb(1, 126, 115);
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 60px 0px;
+}
+.a3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1 1 auto;
+}
+.a3 h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 0px 30px 0px;
+}
+.a3 p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+.a3 span{
+    color: rgb(51, 51, 51);
+}
+.a3 iframe{
+    margin: 30px 0px 90px 0px;
+    width: calc(1224px);
+    display: flex;
+    flex-grow:  1 1 auto;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1 1 auto;
+    background-color: rgb(2, 92, 92);
+}
+footer img{
+    width: 150px;
+}
+footer p{
+    color: white;
+    line-height: 0px;
+    margin: 0px 0px 40px 0px;
+}
+.a2 a:hover{
+    color: grey;
+}
+@media screen and (max-width: 750px){
+    .sobre img{
+        display: none;
+    }
+}
